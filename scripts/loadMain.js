@@ -1,10 +1,11 @@
-var myVar;
+var timer;
 
 function loadPage() {
-	myVar = setTimeout(showPage, 8900);
+	timer = setTimeout(showPage, 9000);
 }
 
 function showPage() {
 	document.getElementById("loader").style.display = "none";
 	document.getElementById("content").style.display = "block";
+        
 }
