@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>kreepy inc-HOME</title>
+	<title>kreepy-inc | HOME</title>
+	<link rel="icon" href="images/kreepy_inc_icon_dark_2025.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/loadStyle.css">
+	<link rel="stylesheet" href="styles/banners.css">
 </head>
-<body onload="loadPage()" class="dark-mode">
+<body onload="loadPage()" class="dark-mode" id="body">
 <div id="loader">
 	<div class="first"><p>Then</p></div>
 	<div class="second"><p>Now</p></div>
@@ -15,29 +18,28 @@
 
 <div style="display:none" class="content" id="content">
 	<div class="headImg"></div>
-	<div class="page" >
+	<div class="page home-page" >
 		<section class="heading">
 		<div class="kname">
 			<div class="name"><a href="#">KREƎPY INC</a></div>
-			<div class="slogan">HERƎ TO KREATƎ.</div>
+			<div class="slogan">HERE TO KREATƎ.</div>
 		</div>
 			<div>
 				<button onclick="on()" class="dropdown-button">|||</button>
 				<div class="cycle" id="theme">
-					<div class="sun"></div>
-					<div class="moon" id="cycle"></div>
+					<div class="switch-holder"></div>
+					<div class="switch" id="cycle"></div>
 				</div>
-
-
 				
 			</div>
+                <div class="hover-line-container"><div class="line" id="line"></div></div>
 		</section>
 		<section class="dropdown-menu" id="dropdown-menu">
 			<ul class="dropdown-content" id="dropdown-content">
 				<button onclick="off()" class="x">X</button>
-				<li><a>KREATƎ</a></li>
-				<li><a>GLOBAL</a></li>
-				<li><a>ABOUT</a></li>
+				<li style="background-image: url(images/build.jpg)"><a href="content.html">KREATIONS</a></li>
+				<li style="background-image: url(images/community.jpg)"><a href="community.html">GLOBAL</a></li>
+				<li style="background-image: url(images/3dfemalepose.jpg)"><a href="about.html">ABOUT</a></li>
 			</ul>
 		</section>
 
@@ -45,20 +47,80 @@
 			<p class="text">Welcome to <span ><a href="#" class="k"><b>KREƎPY INC.</b></a><br></span>Home of animations, arts, games and so much more...<br>Join us and take a journey to exeperience a world like no other.<br>We aren't here for show, but we are "Here to KREATƎ".</p>
 		</section>
 
-		<section>
-			<a href"">
-				<div class="banner-container">
+		<section class="go-to">
+			<a href="content.html">
+				<div class="banner-container" style="background-image: url(images/build.jpg)">
 					<div class="banner-overlay">
-						<h2>KREATƎ</h2>
+						<div class="banner-overlay-text">
+							<h2>KREATIONS</h2>
+							<h3>My Kreations</h3>
+						</div>
 					</div>
 				</div>
 			</a>
+			<div class="details">
+				<p>Locate all my animations short and long, screenshots of game development progress and other screenshots too.</p>
+			</div>
+		</section>
+
+                <section class="go-to">
+			<a href="community.html">
+				<div class="banner-container" style="background-image: url(images/community.jpg); background-position-y: 40%;">
+					<div class="banner-overlay">
+						<div class="banner-overlay-text">
+							<h2>GLOBAL</h2>
+							<h3>Our community everone to interact chat and upload there own KREATES</h3>
+						</div>
+					</div>
+				</div>
+			</a>
+			<div class="details">
+				<p>Join our community to grt updates what's new and access to games, addons, 3D models created by us. Which are ready for available for you to gain use and experiment on.</p>
+			</div>
+		</section>
+
+                <section class="go-to">
+			<a href="about.html">
+				<div class="banner-container" style="background-image: url(images/3dfemalepose.jpg)">
+					<div class="banner-overlay">
+						<div class="banner-overlay-text">
+							<h2>ABOUT</h2>
+							<h3>About Us</h3>
+						</div>
+					</div>
+				</div>
+			</a>
+			<div class="details">
+				<p>Want to know about KREEPY INC and the founder. Here's every thing you need to know.</p>
+			</div>
+		</section>
+
+		<section>
+			<div class="icon">
+				<div class="brow">
+					<div class="left-b"></div>
+					<div class="right-b"></div>
+				</div>
+				<div class="eyes">
+					<div class="left-e"></div>
+					<div class="right-e></div>
+				</div>
+				<div class="mouth"></div>
+			</div>
 		</section>
 	</div>
 	<div class="footer">
-			footer
-			<div>
-				<div class="insta"><div>
+			<h3>footer</h3>
+                        <div>KREƎPY INC 2025. Powered by KREATƎ | All Rights Reserved</div>
+                        <div><h3>CONTACT</h3><a href="tel:260978776703" class="contact-links">+260 978 776 703</a> | <a href="mailto:kreepyincglobal@gmail.com" class="contact-links">Mail KREƎPY INC</a> | <a href="mailto:frankchimese@gmail.com" class="contact-links">Personal Mail</a></div>
+                        <div><h3>LOCATION</h3><p>Lusaka, Zambia</p></div>
+
+			<div class="links">
+				<a href="" class="fa fa-facebook" alt="facebooK"></a>
+                                <a href="" class="fa fa-instagram" alt="instagram"></a>
+                                <a href="" class="fa fa-pinterest" alt="pinterest"></a>
+                                <a href="" class="fa threads-l" alt="threads">@</a>
+                                <a href="" class="fa git-l" alt="github">Git</a>
 			</div>
 		<div>
 			<div class="jumper-line">
@@ -70,5 +132,6 @@
 	<script src="scripts/dropdown.js"></script>
 	<script src="scripts/loadMain.js"></script>
 	<script src="scripts/theme.js"></script>
+        <script src="scripts/scroLoad.js"></script>
 </body>
 </html>
