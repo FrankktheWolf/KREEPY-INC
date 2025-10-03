@@ -46,7 +46,7 @@
 
 @keyframes loadcontent {
 	from { bottom: -200px; opacity:0}
-	to { bottom: 0px; opacity:1}
+	to { bottom: 0px; opacity:1;}
 }
 
 .first{

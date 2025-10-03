@@ -1,0 +1,50 @@
+.main-form{
+    padding: 2rem;
+}
+
+@media max-width(787px){
+    .form-container{
+        height: 300px;
+        overflow: scroll;
+    }
+}
+
+.form-container{
+    background-color: var(--page-glass);
+    padding: 1rem;
+    border-radius: 10px;
+    overflow: ;
+}
+
+.form{
+    background-color: none;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+.form h3{
+    color: var(--primary-text);
+}
+
+.form-fill{
+    display: inline;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.form-fill p{
+   color: var(--primary-f-text);
+}
+
+.form-fill input{
+    background-color: var(--page-glass);
+    color: var(--primary-text);
+    width: 100%;
+    height: 40px;
+    border: 0;
+}
+
+.form-fill input::placeholder{
+    color: var(--primary-text);
+}
