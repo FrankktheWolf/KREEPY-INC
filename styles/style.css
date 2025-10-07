@@ -1,6 +1,6 @@
 html{
 	scroll-behavior: smooth;
-	font-family: monospace, consolas, san-serif;
+	font-family: monospace, arial;
 }
 
 :root{
@@ -16,10 +16,10 @@ html{
 	--page-glass: rgba(100, 100, 100, 0.1);
 	--jump-bg: rgba(95, 115, 150, 0.5);
 	--jump-text: #fff;
-        --gradient-start: rgb(153, 217, 234);
-        --gradient-mid: rgb(153, 217, 234);
-        --gradient-end: rgb(153, 217, 234);
-        --loader-c: #fff;
+	--gradient-start: rgb(153, 217, 234);
+	--gradient-mid: rgb(153, 217, 234);
+	--gradient-end: rgb(153, 217, 234);
+	--loader-c: #fff;
 }
 
 body{
@@ -54,10 +54,10 @@ button{
 	--page-glass: rgba(0, 0, 0, 0.3);
 	--jump-bg: rgba(255, 255, 255, 0.7);
 	--jump-text: rgb(0, 0, 0);
-        --gradient-start: #aaa;
-        --gradient-mid: #aaa;
-        --gradient-end: #aaa;
-        --loader-c: rgb(153, 217, 234);
+	--gradient-start: #aaa;
+	--gradient-mid: #aaa;
+	--gradient-end: #aaa;
+	--loader-c: rgb(153, 217, 234);
 }
 
 .headImg{
@@ -547,5 +547,6 @@ button{
         -webkit-text-fill-color: transparent;
         transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 }
+
 
 }
