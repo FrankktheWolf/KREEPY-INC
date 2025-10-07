@@ -79,8 +79,7 @@ button{
 	background-color: var(--primary-bg); /*bacground-ease*/
 	position: relative;
 	top: 0;
-        font-size: 7px;
-	min-height: 2100px;
+	
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	z-index: 0;
@@ -303,20 +302,56 @@ button{
         color: var(--primary-f-text);
 }
 
+.banner-container{
+	position: relative;
+	background-size: 100%;
+	background-position: 50% 10%;
+	color: white;
+	height: 200px;
+}
+
+.banner-overlay{
+	display: grid;
+	position: relative;
+	height: 100%;
+}
+
+.banner-overlay-text{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.banner-container h3{
+	text-align: right;
+        font-size: 15px;
+	position: relative;
+	right: 10px;
+	top: 10px;
+}
+
 .details{
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--primary-bg) 70%);
 	color: var(--body-text);
 	position: absolute;
 	bottom: 0px;
-	text-align: justify;
-	line-height: 100px;
+        display: flex;
+	text-align: center;
+        font-size: 12px;
+	line-height: 20px;
 	z-index: 1;
 	width: 100%;
 	height: 100px;
 }
 
+.details p{
+        align-self: flex-end;
+}
+
 .fa{
-        font-size: 40px;
+        font-size: 25px;
         color: var(--primary-f-text);
         text-align: center;
         width: 25px;
@@ -366,11 +401,11 @@ button{
 }
 
 .git-l:hover{
-        color: white
+        color: white;
 }
 
 .threads-l:hover{
-        color: white
+        color: white;
 }
 
 .jumper-line{
@@ -399,10 +434,12 @@ button{
 
 .footer h3{
         color: var(--primary-text);
+        font-size: 13px;
 }
 
 .footer div{
-        line-height: 50px;
+        line-height: 32px;
+        height- 100px;
 }
 
 .contact-links:hover{
@@ -432,16 +469,62 @@ button{
 	bottom: 20px;
 }
 
-/*PC and Tablets = @media only screen and minwid*/
+/*------------------------PC and Tablets = @media only screen and minwid ---------------------*/
 @media (min-width: 768px){
+
+        .page{
+                min-height: 2100px;
+        }
 
         .heading{
                 height: 150px;
         }
 
+        .banner-container{
+		height: 500px;
+		transition: background-size 1.2s ease, backgroumd-position-x 0.5s ease 1.2s, background-position-y 0.8s ease-in 1s;
+		margin-bottom: 100px;
+        }
+
+        .banner-container h2{
+                font-size: 40px;
+        }
+
+        .banner-container h3{
+                font-size: 25px;
+        }
+
+	.banner-container:hover{
+		background-size: 120%;
+		background-position-x: 20%;
+		background-position-y: 5%;
+	}
+
+        .details{
+                font-size: 20px;
+        }
+
         .footer{
                 border-top-left-radius: 50px;
 	        border-top-right-radius: 50px;
+        }
+
+        .footer h3{
+                font-size: 20px;
+        }
+
+        .links{
+                display: flex;
+                justify-content: center;
+                gap: 100px;
+        }
+
+        .fa{
+                font-size: 40px;
+        }
+
+        .footer {
+                font-size: 15px;
         }
 
 	#dropdown-menu{
@@ -462,7 +545,7 @@ button{
 	-webkit-background-clip: text;
         color: transparent;
         -webkit-text-fill-color: transparent;
-        transition: --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
+        transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 }
 
 }

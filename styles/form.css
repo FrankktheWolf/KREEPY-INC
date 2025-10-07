@@ -1,3 +1,85 @@
+.frame{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 500px;
+    width: 500px;
+}
+
+.piece{
+    background-image: url(../images/build.jpg), url(../images/kreepy_inc_icon_2025.png);
+    background-size: 300%;/*300%;*/
+    background-repeat: no-repeat, no-repeat;
+    position: absolute;
+    width: 240px;
+    height: 240px;
+}
+
+.piece:nth-child(1){
+    left: 5px;
+    bottom: 250px;
+    background-position: 0  0;
+    width: 200px;
+    height: 210px;
+    animation: puzzleA 15s linear infinite alternate;
+}
+
+.piece:nth-child(2){
+    background-position: 50% 0;
+    left: 250px;
+    bottom: 250px;
+    width: 240px;
+    height: 240px;
+    animation: puzzleB 15s infinte normal forwards;
+}
+
+.piece:nth-child(3){
+    left: 5px;
+    bottom: 5px;
+    background-position: 0 51%;
+    width: 220px;
+    height: 220px;
+    animation: puzzleC 15s infinte normal forwards;
+}
+
+.piece:nth-child(4){
+    left: 250px;
+    bottom: 5px;
+    background-position: 51% 51%;
+    width: 180px;
+    height: 150px;
+    animation: puzzleD 15s infinte normal forwards;
+}
+
+/*--------------------------Animation zone----------------------------*/
+
+@keyframes puzzleA{
+    0%{ background-position: 0 0, 0 0}
+    45%{ background-position: 0 0, 0 0}
+    50%{ background-position:0 210px, 0 0}
+    100%{ background-position:0 210px, 0 0}
+}
+
+@keyframes puzzleB{
+    0%{ width:5px;}
+    100%{ width: 100px}
+}
+
+@keyframes puzzleC{
+    0%{ width:5px;}
+    100%{ width: 100px}
+}
+
+@keyframes puzzleD{
+    0%{ width:5px;}
+    100%{ width: 100px}
+}
+
+/*-----------------^^^^-----Animation zone----^^^^--------------------*/
+
 .main-form{
     padding: 2rem;
 }
