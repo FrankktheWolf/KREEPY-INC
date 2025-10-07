@@ -1,6 +1,6 @@
 ehtml{
 	scroll-behavior: smooth;
-	font-family: monospace, arial;
+	font-family: monospace;
 }
 
 :root{
@@ -550,4 +550,5 @@ button{
 
 
 }
+
 
