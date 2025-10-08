@@ -262,19 +262,16 @@ button{
 	height: 25vh;
 	background-position: 50% 20%;
 	background-size: cover;
-	backdrop-filter: blur(2px);
-	-webkit-backdrop-filter: blur(2px);
 	width: 100%;
 	cursor: pointer;
 	border-radius: 10px;
 	filter: grayscale(100%);
 	transition: all 1s linear, filter 0.5s ease;
-	opacity: 0.5;
 }
 
 .dropdown-content li a{
-        color: rgb(153, 217, 234);
-        filter: grayscale(0%);
+	color: rgb(153, 217, 234);
+	filter: grayscale(0%);
 }
 
 .dropdown-content li:nth-child(3){
@@ -286,7 +283,7 @@ button{
 }
 
 .go-to{
-        position: relative;
+	position: relative;
 }
 
 .text{
@@ -299,7 +296,7 @@ button{
 }
 
 .k:hover{
-        color: var(--primary-f-text);
+	color: var(--primary-f-text);
 }
 
 .banner-container{
@@ -326,7 +323,7 @@ button{
 
 .banner-container h3{
 	text-align: right;
-        font-size: 15px;
+	font-size: 15px;
 	position: relative;
 	right: 10px;
 	top: 10px;
@@ -337,9 +334,9 @@ button{
 	color: var(--body-text);
 	position: absolute;
 	bottom: 0px;
-        display: flex;
+	display: flex;
 	text-align: center;
-        font-size: 12px;
+	font-size: 12px;
 	line-height: 20px;
 	z-index: 1;
 	width: 100%;
@@ -351,61 +348,61 @@ button{
 }
 
 .fa{
-        font-size: 25px;
-        color: var(--primary-f-text);
-        text-align: center;
-        width: 25px;
-        padding: 1rem;
+	font-size: 25px;
+	color: var(--primary-f-text);
+	text-align: center;
+	width: 25px;
+	padding: 1rem;
 	transition: 1s all ease; 
 }
 
 @property --gradient-start {
-        syntax: '<color>';
-        inherits: false;
-        initial-value: #aaa;
+	syntax: '<color>';
+	inherits: false;
+	initial-value: #aaa;
 }
 
 @property --gradient-mid {
-        syntax: '<color>';
-        inherits: false;
-        initial-value: #aaa;
+	syntax: '<color>';
+	inherits: false;
+    initial-value: #aaa;
 }
 
 @property --gradient-end {
-        syntax: '<color>';
-        inherits: false;
-        initial-value: #aaa;
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #aaa;
 }
 
 .fa-instagram{
-        background-image: linear-gradient(-135deg, var(--gradient-start), var(--gradient-mid) 35%, var(--gradient-end));
+    background-image: linear-gradient(-135deg, var(--gradient-start), var(--gradient-mid) 35%, var(--gradient-end));
 	background-clip: text;
 	-webkit-background-clip: text;
-        color: transparent;
-        -webkit-text-fill-color: transparent;
-        transition: --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition: --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 }
 
 .fa-instagram:hover{
-        --gradient-start: purple;
-        --gradient-mid: magenta;
-        --gradient-end: yellow;
+    --gradient-start: purple;
+    --gradient-mid: magenta;
+    --gradient-end: yellow;
 }
 
 .fa-facebook:hover{
-        color: #3B5998;
+    color: #3B5998;
 }
 
 .fa-pinterest:hover{
-        color: #CD2027;
+    color: #CD2027;
 }
 
 .git-l:hover{
-        color: white;
+    color: white;
 }
 
 .threads-l:hover{
-        color: white;
+    color: white;
 }
 
 .jumper-line{
@@ -424,7 +421,7 @@ button{
 .contact-links{
 	background-color: var(--primary-f-bg);
 	color: var(--primary-f-text);
-        padding: 1rem;
+    padding: 1rem;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	height: 500px;
@@ -433,17 +430,17 @@ button{
 }
 
 .footer h3{
-        color: var(--primary-text);
-        font-size: 13px;
+    color: var(--primary-text);
+    font-size: 13px;
 }
 
 .footer div{
-        line-height: 32px;
-        height- 100px;
+    line-height: 32px;
+    height: 100px;
 }
 
 .contact-links:hover{
-        color: var(--primary-text);
+    color: var(--primary-text);
 }
 
 .jumper{
@@ -472,23 +469,23 @@ button{
 /*------------------------PC and Tablets = @media only screen and minwid ---------------------*/
 @media (min-width: 768px){
 
-        .page{
-                min-height: 2100px;
-        }
+	.page{
+		min-height: 2100px;
+    }
 
-        .heading{
-                height: 150px;
-        }
+    .heading{
+        height: 150px;
+    }
 
-        .banner-container{
+    .banner-container{
 		height: 500px;
 		transition: background-size 1.2s ease, backgroumd-position-x 0.5s ease 1.2s, background-position-y 0.8s ease-in 1s;
 		margin-bottom: 100px;
-        }
+    }
 
-        .banner-container h2{
+    .banner-container h2{
                 font-size: 40px;
-        }
+    }
 
         .banner-container h3{
                 font-size: 25px;
@@ -550,6 +547,7 @@ button{
 
 
 }
+
 
 
 
