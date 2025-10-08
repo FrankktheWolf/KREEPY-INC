@@ -52,7 +52,7 @@ button{
 	--primary-misc-col: #000;
 	--secondary-misc-col: rgb(153, 217, 234);
 	--page-glass: rgba(0, 0, 0, 0.3);
-	--jump-bg: rgba(255, 255, 255, 0.7);
+	--jump-bg: rgba(255, 255, 255, 0.5);
 	--jump-text: rgb(0, 0, 0);
 	--gradient-start: #aaa;
 	--gradient-mid: #aaa;
@@ -484,12 +484,12 @@ button{
     }
 
     .banner-container h2{
-                font-size: 40px;
+        font-size: 40px;
     }
 
-        .banner-container h3{
-                font-size: 25px;
-        }
+    .banner-container h3{
+		font-size: 25px;
+	}
 
 	.banner-container:hover{
 		background-size: 120%;
@@ -497,32 +497,32 @@ button{
 		background-position-y: 5%;
 	}
 
-        .details{
-                font-size: 20px;
-        }
+	.details{
+		font-size: 20px;
+    }
 
-        .footer{
-                border-top-left-radius: 50px;
-	        border-top-right-radius: 50px;
-        }
+    .footer{
+		border-top-left-radius: 50px;
+	    border-top-right-radius: 50px;
+    }
 
-        .footer h3{
-                font-size: 20px;
-        }
+	.footer h3{
+        font-size: 20px;
+    }
 
-        .links{
-                display: flex;
-                justify-content: center;
-                gap: 100px;
-        }
+    .links{
+		display: flex;   
+        justify-content: center;
+        gap: 100px;
+    }
 
-        .fa{
-                font-size: 40px;
-        }
+    .fa{
+		font-size: 40px;
+    }
 
-        .footer {
-                font-size: 15px;
-        }
+    .footer {
+        font-size: 15px;
+    }
 
 	#dropdown-menu{
 		height: 100vh;
@@ -536,17 +536,16 @@ button{
 		z-index: 100;
 	}
 
-.fa-instagram{
-        background-image: linear-gradient(-135deg, var(--gradient-start), var(--gradient-mid) 35%, var(--gradient-end));
-	background-clip: text;
-	-webkit-background-clip: text;
-        color: transparent;
-        -webkit-text-fill-color: transparent;
-        transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
+	.fa-instagram{
+		background-image: linear-gradient(-135deg, var(--gradient-start), var(--gradient-mid) 35%, var(--gradient-end));
+		background-clip: text;
+		-webkit-background-clip: text;
+		color: transparent;
+		-webkit-text-fill-color: transparent;
+		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
+	}
 }
 
-
-}
 
 
 
