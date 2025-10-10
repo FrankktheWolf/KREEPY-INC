@@ -346,6 +346,58 @@ button{
         align-self: flex-end;
 }
 
+}
+
+.home-button-container{
+	display: flex;
+	justify-content: center;
+}
+
+.home-button{
+	background-color: red;
+	width: 300px;
+	height: 300px;
+}
+
+.gear-container{
+	height: 900px;
+	position: relative;
+}
+
+.gear{
+	background-image: url(../images/gear.png);
+	background-size: cover;
+	position: absolute;
+	animation: crank 5s cubic-bezier(0.1, -0.2, 0.2, 1.8) infinite;
+}
+
+.gear:nth-child(1){
+	left: 40%;
+	top: 25%;
+	width: 150px;
+	height: 150px;
+}
+
+.gear:nth-child(2){
+	left: 35%;
+	top: 30%;
+	width: 350px;
+	height: 350px;
+}
+
+.gear:nth-child(3){
+	left: 30%;
+	top: 55%;
+	width: 250px;
+	height: 250px;
+}
+
+@keyframes crank{
+	0%{ transform: rotate(0deg)}
+	100%{ transform: rotate(360deg)}
+}
+
+
 .fa{
 	font-size: 25px;
 	color: var(--primary-f-text);
@@ -544,6 +596,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
