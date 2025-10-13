@@ -355,6 +355,10 @@ button{
 }
 
 .dimensional-banner{
+	background-size: 100%;
+	background-position: 50% 30%;
+	height: 200px;
+	overflow: hidden;
 	perspective: 1000px;
 	transition: transform 3s cubic-bezier(0.2, 0.6, 0.6, 0.9);
 	transform-style: preserve-3d;
@@ -628,4 +632,5 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
