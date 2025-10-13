@@ -364,6 +364,10 @@ button{
 	transform-style: preserve-3d;
 }
 
+.dimensional-banner h2{
+	padding: 0.5rem;
+}
+
 .detail-t{
 	background-image: linear-gradient(to right, var(--primary-bg), rgba(255, 255, 255, 0));
 	position: absolute;
@@ -641,6 +645,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
