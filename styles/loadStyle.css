@@ -87,7 +87,7 @@
 .third{
 	position: fixed;
 	font-size: 150px;
-	font-family: arial;
+	font-family: arial, monospace;
 	font-weight: bolder;
 	width: 100px;
 	right: 10%;
@@ -107,4 +107,5 @@
 #content{
 	display: none;
 	text-align: center;
+
 }
