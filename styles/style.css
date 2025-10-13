@@ -255,7 +255,7 @@ button{
 
 .dropdown-content li{
 	display: block;
-	position: relative;
+	position: ;
 	right: 30px;
 	padding: 1rem;
 	height: 25vh;
@@ -596,6 +596,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
