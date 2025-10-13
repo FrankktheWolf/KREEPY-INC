@@ -596,7 +596,7 @@ button{
 	}
 
 	.dimensional-banner:hover .dim-title{
-		transform: rotate3d(-0.4, 1, 1, 45deg), translateZ(500px), scale3d(10px);
+		transform: rotate3d(-0.4, , 0.6, 45deg), translateZ(500px), scale3d(2);
 	}
 
 	.detail-t{
@@ -647,6 +647,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
