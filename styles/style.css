@@ -351,6 +351,7 @@ button{
 	background-image: linear-gradient(to right, var(--primary-bg), rgba(255, 255, 255, 0));
 	position: absolute;
 	width: 50%;
+	height: 100%;
 }
 
 .home-button-container{
@@ -610,6 +611,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
