@@ -364,10 +364,6 @@ button{
 	transform-style: preserve-3d;
 }
 
-.dimensional-banner:hover .dimensional-banner h2{
-	transform: rotate3d(-0.4, 1, 1, 45deg), translateZ(500px), scale3d(10px);
-}
-
 .detail-t{
 	background-image: linear-gradient(to right, var(--primary-bg), rgba(255, 255, 255, 0));
 	position: absolute;
@@ -588,6 +584,19 @@ button{
 		font-size: 20px;
     }
 
+	.dimensional-banner{
+		height: 500px;
+		margin-bottom: 100px;
+	}
+
+	.dimensional-banner:hover .dimensional-banner h2{
+		transform: rotate3d(-0.4, 1, 1, 45deg), translateZ(500px), scale3d(10px);
+	}
+
+	.detail-t{
+		height: 100%;
+	}
+
     .footer{
 		border-top-left-radius: 50px;
 	    border-top-right-radius: 50px;
@@ -632,6 +641,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
