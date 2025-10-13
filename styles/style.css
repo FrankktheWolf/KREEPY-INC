@@ -451,10 +451,13 @@ button{
     color: white;
 }
 
-.threads-l:hover{
-    color: white;
+.threads-l{
 	font-family: sans-serif;
 	font-weight: bolder;
+}
+
+.threads-l:hover{
+    color: white;
 }
 
 .jumper-line{
@@ -596,6 +599,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
