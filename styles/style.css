@@ -479,7 +479,7 @@ button{
     padding: 1rem;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
-	height: 500px;
+	min-height: 500px;
 	transition: background-color 2s ease;
 	z-index: 0;
 }
@@ -599,6 +599,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
