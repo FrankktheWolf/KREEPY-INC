@@ -346,8 +346,6 @@ button{
         align-self: flex-end;
 }
 
-}
-
 .home-button-container{
 	display: flex;
 	justify-content: center;
@@ -496,8 +494,7 @@ button{
 
 .jumper{
 	background-color: var(--jump-bg);
-	position: relative;
-	bottom: 10px;
+	bottom: 0;
 	color:  var(--jump-text);
 	font-size: xx-large;
 	font-weight: bolder;
@@ -596,6 +593,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
