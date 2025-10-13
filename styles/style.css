@@ -360,11 +360,10 @@ button{
 	height: 200px;
 	overflow: hidden;
 	perspective: 1000px;
-	transition: transform 3s cubic-bezier(0.2, 0.6, 0.6, 0.9);
 	transform-style: preserve-3d;
 }
 
-.dimensional-banner h2{
+.dim-title{
 	padding: 0.5rem;
 }
 
@@ -593,7 +592,11 @@ button{
 		margin-bottom: 100px;
 	}
 
-	.dimensional-banner:hover .dimensional-banner h2{
+	.dim-title{
+		transition: transform 3s cubic-bezier(0.2, 0.6, 0.6, 0.9);
+	}
+
+	.dimensional-banner:hover .dim-title{
 		transform: rotate3d(-0.4, 1, 1, 45deg), translateZ(500px), scale3d(10px);
 	}
 
@@ -645,6 +648,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
