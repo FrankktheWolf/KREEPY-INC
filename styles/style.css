@@ -344,7 +344,13 @@ button{
 }
 
 .details p{
-        align-self: flex-end;
+    align-self: flex-end;
+}
+
+.detail-t{
+	background-image: linear-gradient(to right, var(--primary-bg), rgba(255, 255, 255, 0));
+	position: absolute;
+	width: 50%;
 }
 
 .home-button-container{
@@ -604,6 +610,7 @@ button{
 		transition: font-size 1s ease, --gradient-start 0.5s ease, --gradient-mid 2s ease, --gradient-end 1s ease;
 	}
 }
+
 
 
 
